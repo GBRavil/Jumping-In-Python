@@ -6,6 +6,6 @@ def get_tuple(path):
     name, extension = name_ext.split('.')
     return '/'.join(path_el) + '/', name, extension
 
-all_path = '/Users/kalishka82/PyCharmProjects/GB_Jumping_In_Python/ht_04_functions/ex_01.py'
+all_path = '/Users/Равиль/Downloads/ex_02.py'
 
 print(get_tuple(all_path))
