@@ -16,3 +16,4 @@ def prime_gen(n: int) -> (iter, int):
             primes_list.append(current_number)
             yield current_number
         current_number += 1
+[print(i, end=" ") for i in prime_gen(int(input("Сколько простых чисел вывести? ")))]
