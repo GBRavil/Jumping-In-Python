@@ -2,8 +2,8 @@ import os
 
 def add_dir_with_files(files_list: list) -> list:
     
-    os.mkdir('Homeworks/HW_7/files')
-    os.chdir('Homeworks/HW_7/files')
+    os.mkdir('S7/files')
+    os.chdir('S7/files')
 
     for item in files_list: 
         with open(item, 'w', encoding='utf-8') as f:
